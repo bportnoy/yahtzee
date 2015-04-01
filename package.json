@@ -1,7 +1,7 @@
 {
   "name": "yahtzee-pw",
   "version": "0.0.1",
-  "description": "",
+  "description": "Yahtzee is a command-line tool for generating secure passphrases using the Diceware method.",
   "main": "yahtzee.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
