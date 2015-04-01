@@ -4,10 +4,10 @@ Yahtzee is a command-line tool for generating secure passphrases using the Dicew
 ##About
 [Diceware](http://world.std.com/~reinhold/diceware.html) is a method for securely generating passphrases with high amounts of entropy. It is best employed by rolling physical dice, but let's be honest: I do not own five dice, nor do I wish to reach for a set of dice when I wish to generate a passphrase.
 
-This tool uses [Random.org](http://www.random.org) to generate five random integers for each word in your passphrase, which corresponds to a word in the [Diceware8k](http://world.std.com/~reinhold/dicewarefaq.html#diceware8k) list.
+This tool uses [Random.org](http://www.random.org) to generate five random integers for each word in your passphrase, which correspond to a word in the [Diceware8k](http://world.std.com/~reinhold/dicewarefaq.html#diceware8k) list.
 
 ##Using Yahtzee
-It's easy! If you have Node installed, just clone this repo to your machine. Then at the command line, type:
+It's easy! If you have Node installed, just clone this repo to your machine. You'll need to [obtain an API key from Random.org](https://api.random.org/api-keys/beta), and add it to a file called api-key.js in your copy of the repo (see api-key-example.js). Then at the command line, type:
 
     node yahtzee <<#>>
 
