@@ -8,9 +8,13 @@ This tool uses [Random.org](http://www.random.org) to generate five random integ
 
 #Using Yahtzee
 If you have Node installed, either clone this repo or run:
+
     npm install yahtzee-pw
+
 Then at the command line, type:
+
     node yahtzee <<#>>
+    
 where # is the number of words in your passphrase (default: 7).
 
 If you don't have Node installed, you should [follow these instructions](http://howtonode.org/how-to-install-nodejs) first.
