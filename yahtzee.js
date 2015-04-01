@@ -1,6 +1,6 @@
 var fs = require('fs');
 var key = require('./api-key');
-var n = process.argv[2] || 7;
+var n = +process.argv[2] || 7;
 var RandomJs = require('randomorg-js');
 var randomJs = new RandomJs();
 var words = [];

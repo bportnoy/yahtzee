@@ -1,5 +1,5 @@
 {
-  "name": "yahtzee",
+  "name": "yahtzee-pw",
   "version": "0.0.1",
   "description": "",
   "main": "yahtzee.js",
@@ -8,15 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bportnoy/diceware.git"
+    "url": "https://github.com/bportnoy/yahtzee.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bportnoy/diceware/issues"
+    "url": "https://github.com/bportnoy/yahtzee/issues"
   },
-  "homepage": "https://github.com/bportnoy/diceware",
+  "homepage": "https://github.com/bportnoy/yahtzee",
   "dependencies": {
+    "fs": "0.0.2",
     "randomorg-js": "^1.0.0"
   }
 }
